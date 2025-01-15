@@ -3,13 +3,15 @@
     <title>FP Chat Test</title>
   </head>
   <body>
+    <button class="open-zammad-chat">Mulai chat</button>
     <script src="https://ticket.rotit.art/assets/chat/chat-no-jquery.min.js"></script>
     <script>
     (function() {
       new ZammadChat({
         fontSize: '12px',
         chatId: 2,
-        title: '<strong>FastPay</strong> chat test!'
+        title: '<strong>FastPay</strong> chat test!',
+        show: false,
       });
     })();
     </script>
